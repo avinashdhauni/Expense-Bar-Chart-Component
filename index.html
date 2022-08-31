@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 14px; text-align: center; margin:10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="mainContainer">
+    <div class="spending">
+      <div class="balance">
+        <p style="margin:15px 0 5px; color:#fff;">My balance</p>
+        <h4 style="font-size:20px; margin:5px 0 15px; color:#fff">$921.48</h4>
+      </div>
+      <div class="icon">
+        <img src="images/logo.svg" alt="">
+      </div>
+    </div>
+    <div class="container">
+      <h1>Spending - Last 7 days</h1>
+      <div id="bars">
+        <div class="expense"></div>
+        <div class="expense"></div>
+        <div class="expense"></div>
+        <div class="expense"></div>
+        <div class="expense"></div>
+        <div class="expense"></div>
+        <div class="expense"></div>
+      </div>
+      <div class="expenseInMonth">
+        <div class="totalExpense">
+          <p>Total this month</p>
+          <h3> $478.33</h3>
+        </div>
+        <div class="percent">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+
+  </main> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://avinashdhauni.com">Avinash Dhauni</a>.
+  </div>
+  
+  <script type="module" src="script.js"></script>
+</body>
+</html>
